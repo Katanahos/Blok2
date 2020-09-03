@@ -8,7 +8,7 @@ public class Task3 {
         int count0 = 0, countplus = 0, countminus = 0;
 
         for (int i = 0; i < mass.length; i++) {
-            mass[i] = scanner.nextInt();
+            mass[i] = scanner.nextDouble();
         }
 
         for (double v : mass) {
