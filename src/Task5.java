@@ -6,6 +6,7 @@ public class Task5 {
         int size = scanner.nextInt();
         int[] mass = new int[size];
         int change = scanner.nextInt();
+        mass[0] = scanner.nextInt();
 
         for (int i = 1; i < mass.length; i++) {
             mass[i] = (mass[i-1]) + change;

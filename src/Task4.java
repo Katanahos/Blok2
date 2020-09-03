@@ -9,8 +9,9 @@ public class Task4 {
         int index1 = 0, index2 = 0;
         double changer;
         double change = scanner.nextDouble();
-
         double[] mass = new double[size];
+        mass[0] = scanner.nextDouble();
+
         for (int i = 1; i < mass.length; i++) {
             mass[i] = (mass[i-1]) + change;
         }
