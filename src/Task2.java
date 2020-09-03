@@ -11,7 +11,7 @@ public class Task2 {
         double change = scanner.nextDouble(); //простой пример изменения ряда
 
         for (int i = 1; i < mass.length; i++) {
-            mass[i] = (mass[i] - 1) + change;
+            mass[i] = (mass[i-1]) + change;
         }
 
         for (int i = 0; i < mass.length; i++) {
