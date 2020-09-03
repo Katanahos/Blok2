@@ -14,8 +14,8 @@ public class Task7 {
         }
 
         for (int i = 0; i < mass.length; i++) {
-            if (max < (mass[i]) + mass[mass.length - 1] + ((mass.length-i) * change)) {
-                max = (mass[i]) + mass[mass.length - 1] + ((mass.length-i) * change) ;
+            if (max < (mass[i]) + (mass[mass.length - 1] + ((mass.length-i) * change))) {
+                max = (mass[i]) + (mass[mass.length - 1] + ((mass.length-i) * change));
             }
         }
         System.out.println(max);
